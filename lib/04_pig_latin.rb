@@ -1,14 +1,3 @@
-#def translate(string)
-#	if ['a','e','i','o','u'].include?(string[0])
-#		string + "ay"
-#	elsif !['a','e','i','o','u'].include?(string[0] && string[1])
-#		string[2..-1] + string[0..1] + "ay"
-#	else
-#		string[1..-1] + string[0] + "ay"
-#	end
-#end
-
-
 def translate (string)
   array = string.split(" ")
   array.each do |word|
